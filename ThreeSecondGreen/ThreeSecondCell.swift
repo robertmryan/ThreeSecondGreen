@@ -27,11 +27,13 @@ class ThreeSecondCell: UICollectionViewCell {
     
     func startTimer() {
         timer?.invalidate()
-        timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: false) { [weak self] _ in
+        let timer = Timer(timeInterval: 3, repeats: false) { [weak self] _ in
             guard let self = self else { return }
             self.didTimerFire?(self)
             self.didTimerFire = nil
         }
+        RunLoop.main.add(timer, forMode: .common)
+        self.timer = timer
     }
 
     func cancelTimer() {
