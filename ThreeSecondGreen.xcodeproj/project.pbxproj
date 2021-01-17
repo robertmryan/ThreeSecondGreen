@@ -13,6 +13,7 @@
 		83B951B925B4BBF8004276D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B951B725B4BBF8004276D0 /* Main.storyboard */; };
 		83B951BB25B4BBFE004276D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B951BA25B4BBFE004276D0 /* Assets.xcassets */; };
 		83B951BE25B4BBFE004276D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B951BC25B4BBFE004276D0 /* LaunchScreen.storyboard */; };
+		83B951C725B4BC1D004276D0 /* ThreeSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B951C625B4BC1D004276D0 /* ThreeSecondCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		83B951BA25B4BBFE004276D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B951BD25B4BBFE004276D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B951BF25B4BBFE004276D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B951C625B4BC1D004276D0 /* ThreeSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSecondCell.swift; sourceTree = "<group>"; };
+		83B951C925B4C3AB004276D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83B951CB25B4C50F004276D0 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		83B951A525B4BBF7004276D0 = {
 			isa = PBXGroup;
 			children = (
+				83B951C925B4C3AB004276D0 /* README.md */,
+				83B951CB25B4C50F004276D0 /* LICENSE.md */,
 				83B951B025B4BBF7004276D0 /* ThreeSecondGreen */,
 				83B951AF25B4BBF7004276D0 /* Products */,
 			);
@@ -59,6 +65,7 @@
 				83B951B125B4BBF8004276D0 /* AppDelegate.swift */,
 				83B951B325B4BBF8004276D0 /* SceneDelegate.swift */,
 				83B951B525B4BBF8004276D0 /* ViewController.swift */,
+				83B951C625B4BC1D004276D0 /* ThreeSecondCell.swift */,
 				83B951B725B4BBF8004276D0 /* Main.storyboard */,
 				83B951BA25B4BBFE004276D0 /* Assets.xcassets */,
 				83B951BC25B4BBFE004276D0 /* LaunchScreen.storyboard */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B951C725B4BC1D004276D0 /* ThreeSecondCell.swift in Sources */,
 				83B951B625B4BBF8004276D0 /* ViewController.swift in Sources */,
 				83B951B225B4BBF8004276D0 /* AppDelegate.swift in Sources */,
 				83B951B425B4BBF8004276D0 /* SceneDelegate.swift in Sources */,
